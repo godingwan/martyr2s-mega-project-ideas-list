@@ -6,4 +6,10 @@ describe Reverser do
 
     expect(input.reverser('string')).to eq('gnirts')
   end
+
+  it 'counts the amount of vowels in a word' do
+    word = Word.new
+
+    expect(word.vowel_count("hello").to eql(2)
+  end
 end
