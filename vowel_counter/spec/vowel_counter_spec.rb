@@ -8,4 +8,10 @@ describe VowelCounter do
     expect(word.vowel_count("aaaaaaaaaa")).to eql(10)
     expect(word.vowel_count("haha testing is good")).to eql(7)
   end
+
+  it 'returns a list of how many vowels' do
+    word = VowelCounter.new
+
+    expect(word.each_vowel("hello")).to eql({"a" => 0,"e" => 1,"i" => 0,"o" => 1,"u" => 0})
+  end
 end
