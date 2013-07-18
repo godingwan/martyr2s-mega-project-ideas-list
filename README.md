@@ -4,5 +4,5 @@ I am going to try and complete all of the programming exercises in this website 
 using Ruby.
 
 Completed so far...
-1. reverse string
-2. pig latin
+- reverse string
+- pig latin
